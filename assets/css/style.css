@@ -1,0 +1,149 @@
+body{
+    box-sizing: border-box;
+    font-style: normal;
+    background-image: url(../img/paisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: xx-large;
+    text-shadow: 
+    0 0 10px rgba(0, 183, 255, 0.8),
+    0 0 20px rgba(0, 183, 255, 0.6),  
+    0 0 30px rgba(0, 183, 255, 0.4),    
+    0 0 40px rgba(0, 183, 255, 0.2);
+}
+
+.box_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    padding-bottom: 2px;
+}
+.box_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img_paz{
+    width:300px;
+    height: auto;
+}
+.img_1{
+    width:200px;
+    height: auto;
+}
+
+
+.box_3{
+    background-image: url(../img/montanas-puesta-sol-hermoso-paisaje-natural-horario-verano_939033-37.avif);
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 25px;
+}
+
+.img_2{
+    width: 169px;
+    height: 169px;
+    object-fit:contain;
+}
+.img_3{
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+}
+.principal_stickers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.stickers_box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px; 
+}
+.img_sticker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+}
+.div_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.input_custom{
+    border: 1px solid white;
+    color: rgba(0, 183, 255, 0.8);
+    border-radius: 4px;
+    background-color: black;
+}
+.text_msj{
+    color: rgb(241, 234, 234);
+    font-size: large;
+    text-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.8),
+        0 0 20px rgba(255, 0, 0, 0.6),  
+        0 0 30px rgba(255, 0, 0, 0.4),    
+        0 0 40px rgba(255, 0, 0, 0.2);    
+}
+.btn_1,.btn_2{
+    color: rgba(0, 183, 255, 0.8);
+    border-color: white;
+}
+
+
+h2{
+    font-size: medium;
+    text-shadow: 
+        0 0 10px rgba(252, 249, 249, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.6),  
+        0 0 30px rgba(234, 232, 232, 0.4),    
+        0 0 40px rgba(255, 255, 255, 0.2);  
+}
+
+.box_num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    background-color: rgba(0, 183, 255, 0.8);
+    border-radius: 40px;
+    width: 180px;
+}
+.text_msj2{
+    font-size: small;
+    text-shadow: 
+    0 0 10px rgba(211, 210, 210, 0.8),
+    0 0 20px rgba(248, 246, 246, 0.6),  
+    0 0 30px rgba(68, 62, 62, 0.4),    
+    0 0 40px rgba(22, 17, 17, 0.2);  
+}
+.boton_box{
+    padding-bottom: 7px;
+}
